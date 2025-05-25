@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<title>Form and table</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<form action="#" method="get" enctype="multipart">
+
+		<label for="first_name">First Name:</label> <br>
+		<input type="text" placeholder="Type your first name" name="first_name" id="first_name" class="first_name">
+		<br><br>
+		<label for="last_name">Last Name:</label> <br>
+		<input type="text" placeholder="Type your last name" name="last_name" id="last_name" class="last_name">
+		<br><br>
+		<label for="email">Email:</label> <br>
+		<input type="email" placeholder="Type your email address" name="email" id="email" class="email">
+		<br><br>
+		<label for="password">Password:</label> <br>
+		<input type="password" placeholder="Enter your password" name="password" id="password" class="password">
+		<br><br>
+		<label for="gender">Gender:</label>
+		<input type="radio" value="Male" name="gender"><span>male</span>
+		<input type="radio" value="Female" name="gender"><span>female</span>
+
+		<br><br>
+		<label for="">Education Qualification</label>
+		<input type="checkbox" value="olevels" name=""><span>Olevels</span>
+		<input type="checkbox" value="alevels" name=""><span>Alevels</span>
+		<br><br>
+
+		<label for="message">Your message</label> <br>
+		<textarea  id="message" cols="53" rows="10" placeholder="Type your message here" name="message" class="message"></textarea>
+		<br><br>
+		
+		<button type="submit">Submit form</button>
+		<button type="reset">Reset form</button>
+
+	</form>
+
+	</div>
+	<table>
+		<caption><b>Student Info</b></caption>
+		<tr>
+			<th>First name</th>
+			<th>Last name</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Ayesha</td>
+			<td>Ambrin</td>
+			<td>12</td>
+    	</tr>
+    	<tr>
+    		<td>Shirin</td>
+    		<td>Islam</td>
+    		<td>16</td>
+    		
+       	</tr>
+       	<tr>
+    		<td>Imam</td>
+    		<td>Hossain</td>
+    		<td>18</td>
+    		
+       	</tr>
+	</table>
+</body>
+</html>
